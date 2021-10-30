@@ -1,5 +1,5 @@
 body {
-    background-color: #62fc84;
+    background-color: #ffffff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -7,3 +7,23 @@ body {
     margin: 0;
     padding: 0;
 }
+@media (prefers-color-scheme: dark) {
+    body {
+      color: #eee;
+      background: #535353;
+    }
+  
+    
+  }
+
+li {
+    font-family: sans-serif;
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    position: sticky;
+  }
